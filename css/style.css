@@ -1,0 +1,49 @@
+
+h1{
+	color:purple;
+}
+body{
+	background-color: #f4f4f4;
+	color:#555555;
+
+	font: normal 16px Arial, Helvetica, sans-serif;
+
+	line-height: 1.6em;
+	marin:0;
+}
+
+/*controls the things in the container div*/
+.container{
+	width:80%;
+	margin:auto;
+}
+
+.box-1{
+
+	color:purple;
+	/*adds border around paragraph (in box div)*/
+	border: 2px pink dotted;
+	
+	/* does the same thing as about live
+	border-width :2px;
+	border-top-style: dotted*/
+
+	/*padding is stuff inside of boarder*/
+	padding:10px ;
+
+	/*margin is stuff outside of the boarder*/
+	margin: 10px 0;
+}
+
+/*styles any header in the box class*/
+.box-1 h1{
+	font-family: Arial;
+}
+
+.box-2{
+	font-family:Arial;
+	color: blue;
+	padding:10px;
+	margin: 10px;
+	border: 2px green dotted;
+}
